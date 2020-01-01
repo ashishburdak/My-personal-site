@@ -1,0 +1,182 @@
+body{
+    text-align: center;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.top-container{
+    padding-top: 100px;;
+    position: relative;
+    background-color: #aee8e6;
+    color: #46b5d1;
+}
+
+.line{
+    border: 8px dotted;
+    border-top: none;
+    width: 4.5rem;
+    color: #91c4d1;
+    margin: 60px auto;
+}
+
+.middle-container{
+   /* background-color: cornsilk;*/
+}
+
+h1{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    width: 35rem;
+    margin-top:0;
+    margin: 0 auto 0 auto;
+    line-height: 0.9;
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #46b5d1;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.35rem;
+    color: #46b5d1;
+}
+
+.pro{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 1.35;
+}
+
+.bottom-container{
+    background-color: #46b5d1;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.cloud{
+    height: 9em;
+    width: 18em;
+}
+
+.upper-cloud{
+    position: absolute;
+    left:60px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    top: 250px;
+    right: 60px;
+}
+.baby-elephant{
+    height: 8em;
+    width: 12em;
+    position: absolute;
+    left: 60px;
+    bottom: 80px;
+}
+.mountain{
+   /* position: absolute;*/
+   margin: 2rem;
+   height: 21rem;
+   width: 50rem;
+}
+
+.ashish{
+    border-radius: 50%;
+    margin: 80px auto 0 auto;
+}
+
+.cp1{
+    height: 15rem;
+    width: 40%;
+    float: left;
+    border-radius: 20%;
+    margin-right: 40px;
+}
+
+.web{
+    height: 15rem;
+    width: 40%;
+    float: right;
+    border-radius: 20%;
+    margin-left: 40px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.btn {
+    font-family: verdana;
+    margin: 100px auto;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px #46B5D1;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #3B9DFF;
+    background: #63B8EE;
+    background: linear-gradient(top,  #11CDD4,  #11999E);
+    background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+    background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+    background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+  }
+  .btn:hover {
+    color: #FFFFFF !important;
+    background: #468CCF;
+    background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+    background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+    background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+    background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  .social-pic{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin: auto 10px;
+  }
+
+  .social-pic:hover{
+	-o-transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	transform: scale(1.25);
+  }
+
+  .last{
+      color: cornsilk;
+  }
+
+.institute{
+    color: cornsilk;
+    text-decoration: underline;
+}
+
+.institute:hover{
+    text-decoration: wavy;
+}
+
+.intro{
+    width: 30%;
+    margin: 0 auto;
+}
