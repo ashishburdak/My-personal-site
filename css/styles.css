@@ -21,7 +21,7 @@ body{
 }
 
 .middle-container{
-   /* background-color: cornsilk;*/
+   padding-bottom: 50px;
 }
 
 h1{
@@ -52,7 +52,7 @@ h3{
 }
 
 .skill-row{
-    width:50%;
+    width:60%;
     margin: 100px auto;
     text-align: left;
     line-height: 1.35;
@@ -60,13 +60,15 @@ h3{
 
 .bottom-container{
     background-color: #46b5d1;
-    margin-top: 80px;
+    margin-top: 0;
     padding: 20px;
+
 }
 
 .cloud{
-    height: 9em;
-    width: 18em;
+    height: 6rem;
+    width: 14rem;
+    opacity: 0.5;
 }
 
 .upper-cloud{
@@ -81,10 +83,10 @@ h3{
     right: 60px;
 }
 .baby-elephant{
-    height: 8em;
-    width: 12em;
+    height: 8rem;
+    width: 12rem;
     position: absolute;
-    left: 60px;
+    left: 80px;
     bottom: 80px;
 }
 .mountain{
@@ -103,7 +105,7 @@ h3{
     height: 15rem;
     width: 40%;
     float: left;
-    border-radius: 20%;
+    border-radius: 10%;
     margin-right: 40px;
 }
 
@@ -111,7 +113,7 @@ h3{
     height: 15rem;
     width: 40%;
     float: right;
-    border-radius: 20%;
+    border-radius: 10%;
     margin-left: 40px;
 }
 
@@ -121,7 +123,6 @@ ul{
 
 .btn {
     font-family: verdana;
-    margin: 100px auto;
     color: #FFFFFF !important;
     font-size: 20px;
     text-shadow: 1px 1px 0px #46B5D1;
